@@ -6,9 +6,9 @@ function fibonacci(n) {
 }
 
 var d1 = new Date();
-fibonacci(40);
+var result = fibonacci(40);
 var d2 = new Date();
 
 
 var executionTime = (d2-d1)/1000;
-console.log(executionTime+" seconds.");
+console.log("Result: "+result+ "\nExecution time: "+executionTime+" seconds");
