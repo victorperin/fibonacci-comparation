@@ -4,11 +4,12 @@ public class java{
     else return fibonacci(n-2) + fibonacci(n-1);
   }
   public static void main(String[] args){
+    int fibonacciCount = 40;
     long d1 = System.currentTimeMillis();
-    long result = fibonacci(40);
+    long result = fibonacci(fibonacciCount);
     long d2 = System.currentTimeMillis();
 
     float executionTime = ((float)(d2 - d1))/1000;
-    System.out.println("Result: "+result+"\nExecultion time: "+ executionTime+" seconds");
+    System.out.println("Fibonacci quantity: "+fibonacciCount+"\nResult: "+result+"\nExecultion time: "+ executionTime+" seconds");
   }
 }
