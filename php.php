@@ -6,7 +6,7 @@
     else
       return fibonacci($n-2) + fibonacci($n-1);
   }
-  $fibonacciCount = 20;
+  $fibonacciCount = 40;
   $d1 = microtime();
   $result = fibonacci($fibonacciCount);
   $d2 = microtime();
