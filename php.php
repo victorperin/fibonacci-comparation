@@ -6,12 +6,13 @@
     else
       return fibonacci($n-2) + fibonacci($n-1);
   }
-  $d1 = microtime(true);
-  $result = fibonacci(40);
-  $d2 = microtime(true);
+  $fibonacciCount = 20;
+  $d1 = microtime();
+  $result = fibonacci($fibonacciCount);
+  $d2 = microtime();
 
 
   $executionTime =$d2-$d1;
-  echo "Result: ".$result."\nExecution time: ".$executionTime." seconds";
+  echo "Fibonacci quantity: ".$fibonacciCount."\nResult: ".$result."\nExecution time: ".$executionTime." seconds";
 
 ?>
