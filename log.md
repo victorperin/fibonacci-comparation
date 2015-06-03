@@ -15,3 +15,5 @@ javascript (nodejs)    - 2.509 seconds
 php                    - (too much time, i'll test it latter...)
 
 ruby                   - 24.745415 seconds
+
+python                 - 59.5440001488 seconds
