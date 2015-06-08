@@ -17,3 +17,5 @@ php                    - (too much time, i'll test it latter...)
 ruby                   - 24.745415 seconds
 
 python                 - 59.5440001488 seconds
+
+c                      - 1.669000 seconds
