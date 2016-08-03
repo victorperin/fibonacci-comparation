@@ -1,21 +1,25 @@
 ##Comparating with 40:
 
+Java                   - 0.867 seconds
+
+Go                     - 1.3770788 seconds
+
+C                      - 1.669000 seconds
+
 Coffeescript (nodejs)  - 2.504 seconds
+
+JavaScript (nodejs)    - 2.509 seconds
 
 C#                     - 3.583850 seconds
 
-go                     - 1.3770788 seconds
+Ruby                   - 24.745415 seconds
 
-java                   - 0.867 seconds
+Lua                    - 35.179 seconds
 
-lua                    - 35.179 seconds
+Python                 - 59.5440001488 seconds
 
-javascript (nodejs)    - 2.509 seconds
+Php                    - (too much time, I'll test it latter...)
 
-php                    - (too much time, i'll test it latter...)
 
-ruby                   - 24.745415 seconds
 
-python                 - 59.5440001488 seconds
 
-c                      - 1.669000 seconds
